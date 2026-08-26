@@ -6,7 +6,7 @@ class RPNSolution{
         int length = tokens.length;
         for (int i = 0 ; i < length ;i++){
             // System.out.println(tokens[i]);
-            if (tokens[i] != "+" && tokens[i] != "-" && tokens[i] != "/" && tokens[i] != "*"){
+            if (!tokens[i].equals("+") && !tokens[i].equals("-") && !tokens[i].equals("/") && !tokens[i].equals("*")) {
                 // System.out.println(tokens[i]);
                 stack.push(Integer.parseInt(tokens[i]));
             }
@@ -14,10 +14,10 @@ class RPNSolution{
                 int val1 = stack.pop();
                 int val2 = stack.pop();
                 int temp = 0;
-                if (tokens[i] == "+") temp = val2 + val1;
-                if (tokens[i] == "-") temp = val2 - val1;
-                if (tokens[i] == "/") temp = val2 / val1;
-                if (tokens[i] == "*") temp = val2 * val1;
+                if (tokens[i].equals("+") ) temp = val2 + val1;
+                if (tokens[i].equals("-")) temp = val2 - val1;
+                if (tokens[i].equals("/")) temp = val2 / val1;
+                if (tokens[i].equals("*")) temp = val2 * val1;
                 stack.push(temp);
                 // System.out.println(stack);
             }
