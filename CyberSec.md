@@ -8,4 +8,5 @@
         - Misuse Case
     3. Threat Modeling - collections of activities
     4. Thread Modeling Components (Assests, Vulnerabilities, Threats, Exploits, Countermeasures)
+    5. Countermeasures
     
