@@ -36,11 +36,34 @@ class BinarySolution{
     }
 }
 
+class OptimalBinarySolution{
+    public int search(int[] nums, int target) {
+        int left = 0;
+        int right = nums.length -1;
+
+        while (left <= right){
+            int mid = left + (right - left) / 2;
+            if (nums[mid] < target){
+                left = mid + 1;
+            }
+            else if (nums[mid] > target){
+                right = mid - 1;
+            }
+            
+            if (nums[mid] == target ){
+                return mid;
+            }
+        }
+
+        return -1;
+        
+    }
+}
 
 
 public class LeetCode704 {
     public static void main(String[] args){
-        BinarySolution solution = new BinarySolution();
+        OptimalBinarySolution solution = new OptimalBinarySolution();
         int[] nums = {2,5};
         int result = solution.search(nums, 0);
         System.out.println(result);
