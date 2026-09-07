@@ -27,7 +27,8 @@ class Search2DSolution {
                 right = mid -1;
             }
         }
-        System.out.println(row);
+
+        // System.out.println(row);
         return false;
         
     }
@@ -37,7 +38,7 @@ public class LeetCode74 {
     public static void main(String[] args){
         int[][] matrix = {{1,3,5,7}, {10,11,16,20}, {23,30,34,60}};
         Search2DSolution solution = new Search2DSolution();
-        boolean result = solution.searchMatrix(matrix, 11);
+        boolean result = solution.searchMatrix(matrix, 12);
         System.out.println(result);
     }
 }
