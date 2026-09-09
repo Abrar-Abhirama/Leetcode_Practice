@@ -2,7 +2,6 @@ import java.util.Arrays;
 
 class KokoEatingBananasSolution {
     public int minEatingSpeed(int[] piles, int h) {
-        int min = 1;
         int max = piles[0];
         for (int i = 0; i < piles.length ; i++){
             if (piles[i] > max){
@@ -10,43 +9,31 @@ class KokoEatingBananasSolution {
             }
         }
         
-        int[] arr = new int[max];
-        for (int i = 0; i < max ; i++){
-            arr[i] = i + 1;
-        }
-    //    System.out.println(Arrays.toString(arr));
-        int left = 0, right = max -1, result = 9999;
+        int left = 1, right = max, result = right;
         while (left <= right){
             int mid = left + (right-left) /2;
             // System.out.println(arr[mid]);
-            int totaltemp = 0;
+            long totaltemp = 0;
             for (int i = 0; i < piles.length ;i++){
                 // System.out.println(piles[i]);
                 // System.out.println(arr[mid]);
-                int temp = (int) Math.ceil((double) piles[i] / arr[mid]) ;
+                long temp = (long) Math.ceil((double) piles[i] / mid) ;
                 // System.out.println(temp);
                 totaltemp += temp;
             }
 
-            if (totaltemp == h){
-                return mid + 1;
-            }
-            if (totaltemp < h){
+            if (totaltemp <= h){
+                result = mid;
                 right = mid -1;
             }
             else if (totaltemp > h){
                 left = mid + 1;
-            }
-
-            totaltemp = 0;
-
-            
+            }   
             // System.out.println(totaltemp);
-         
-            
+
         }
     
-        return 0;
+        return result;
     }
 }
 
