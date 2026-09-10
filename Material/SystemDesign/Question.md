@@ -1,3 +1,4 @@
+##### Database
 What is a transaction?
 Why do we need transactions?
 Explain ACID.
@@ -24,3 +25,6 @@ Why can Serializable transactions need retries?
 Why wouldn't you automatically use Serializable everywhere?
 What's the difference between isolation and locking?
 What's PostgreSQL's default isolation level?
+
+
+##### Caching
