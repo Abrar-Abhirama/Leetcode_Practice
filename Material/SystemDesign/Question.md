@@ -37,3 +37,28 @@ What are the trade-offs of using a covering index?
 Why do indexes make reads faster but potentially make INSERT, UPDATE, and DELETE slower?
 What is a B+ Tree page split, and why can frequent page splits hurt write performance?
 If you have a table with millions of rows and a query that frequently filters by user_id and returns name and age, how would you design the index and why?
+Why do we need sharding?
+Replication vs sharding?
+Vertical vs horizontal partitioning?
+Partitioning vs sharding?
+What makes a good shard key?
+Why is high cardinality important?
+Why is even distribution important?
+Why does query locality matter?
+Why can user_id be a good shard key?
+Give an example of a bad shard key.
+What is a hot shard?
+Can data be evenly distributed but traffic be uneven?
+How would you handle a viral post?
+When would caching solve a hotspot?
+How can read replicas help?
+Why is hash(key) % N difficult to scale?
+What happens when you add a new shard?
+How would you migrate data without downtime?
+How do you handle writes happening during migration?
+How do you verify migration correctness?
+What problem does consistent hashing solve?
+How does the hash ring work?
+What is a virtual node?
+Why do virtual nodes improve distribution?
+How much data moves when a node is added?

@@ -51,4 +51,31 @@ ISOLATION LEVELS
 18. Composite Indexes & Left-Most Prefix Rule
 19. Covering indexes / Index - only scan
 20. Write Penalties
-21. Page splitsoka
+21. Page splits
+22. N + 1 Problem
+23. Lazy Loading -> Eager Loading (JOIN) / Batching
+24. Join vs Batching
+25. Data Loader
+26. N + 1 vs Slow Query
+27. Explain, Explain Analyze
+28. Index, Seq Scan, Bitmap Heat Scan
+29. Sharding
+30. Vertical Scaling
+31. Horizonal Scaling
+32. Cross-Shard queries
+33. Scatter-gather (shard key)
+34. Transaction Mechanism
+    - two phase commit
+    - distributed transactions
+    - sagas
+    - compensating transactions
+35. Typical Scaling Journey
+    - simple
+    - optimize 
+    - cache
+    - read replica
+    - vertical Scaling
+    - Sharding
+36. Vertical vs Horizontal Partitioning
+
+
