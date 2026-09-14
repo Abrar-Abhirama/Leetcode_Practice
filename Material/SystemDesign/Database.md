@@ -46,4 +46,9 @@ ISOLATION LEVELS
  └── Serializable
  
 
- 16. B+ Tree Anatomy
+16. B+ Tree Anatomy
+17. PostgreSQL Heap Table & Indexes
+18. Composite Indexes & Left-Most Prefix Rule
+19. Covering indexes / Index - only scan
+20. Write Penalties
+21. Page splitsoka
