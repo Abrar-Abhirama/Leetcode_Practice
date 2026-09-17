@@ -77,5 +77,13 @@ ISOLATION LEVELS
     - vertical Scaling
     - Sharding
 36. Vertical vs Horizontal Partitioning
-
-
+37. High Cardinality, Even Distribution, query locality, stability, avoid hotspot (sharding)
+38. Compound Shard Keys
+39. Transaction locality
+40. Range, Hash, Directory sharding
+41. Data Skew vs Traffic Skew
+42. hotspot -> distributed counters
+43. ReSharding
+44. High Level Zero Downtime migration
+45. Consistent Hashing
+46. Virtual Nodes
