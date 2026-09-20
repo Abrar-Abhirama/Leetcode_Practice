@@ -63,7 +63,6 @@ What is a virtual node?
 Why do virtual nodes improve distribution?
 How much data moves when a node is added?
 
-
 Database Mastery Test — Concurrency, Isolation & MVCC
 Part 1 — Fundamentals
 What problem does database concurrency solve? Why don't we simply execute every transaction sequentially?
