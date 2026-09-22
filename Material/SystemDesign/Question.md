@@ -432,3 +432,4 @@ what would you consider?
 
 If conflicts are extremely rare and you want high concurrency, which approach might be attractive?
 If conflicts are extremely frequent, why might optimistic locking perform poorly?
+
