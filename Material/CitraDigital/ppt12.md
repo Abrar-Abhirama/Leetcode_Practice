@@ -1,0 +1,16 @@
+
+- Konsep Dasar Penapisan Ranah Frekuensi
+  - Korespondensi Penapisan Spasial dan Frekuensi
+  - Peran dan Prosedur Zero Padding
+  - Pemusatan Spektrum Frekuensi (FFTShift)
+- Penapis Lolos-Rendah (Lowpass Filter / LPF)
+  - Langkah-Langkah Penapisan LPF
+  - Ideal Lowpass Filter (ILPF) dan Efek Ringing
+  - Gaussian Lowpass Filter (GLPF)
+  - Butterworth Lowpass Filter (BLPF)
+- Penapis Lolos-Tinggi (Highpass Filter / HPF)
+  - Ideal Highpass Filter (IHPF)
+  - Butterworth Highpass Filter (BHPF)
+  - Gaussian Highpass Filter (GHPF)
+- Unsharp Masking dan High-Boost Filtering dalam Ranah Frekuensi
+- Penapis Lubang (Notch Filter)

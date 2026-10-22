@@ -1,0 +1,11 @@
+- Penapisan Citra dan Teori Konvolusi
+    - Konsep Dasar Penapisan Citra (Image Filtering)
+    - Teori Konvolusi (Fungsi Kontinu dan Diskrit)
+    - Sifat-Sifat Konvolusi
+    - Konvolusi pada Fungsi Dwimatra (2D)
+    - Penanganan Piksel Pinggir (Border Processing / Padding)
+- Penerapan Konvolusi dalam Pemrosesan Citra
+    - Penggunaan Konvolusi di dalam CNN (Convolutional Neural Network)
+    - Convolutional Layer
+    - Pooling Layer (Max Pooling dan Average Pooling)
+    - Fully Connected Layer

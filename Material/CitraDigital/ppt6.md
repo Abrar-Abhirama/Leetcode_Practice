@@ -1,0 +1,14 @@
+- Konsep Dasar Histogram Citra
+- Perhitungan Histogram
+- Histogram Citra Grayscale
+- Histogram Citra Berwarna (RGB)
+- Normalisasi Histogram
+- Informasi dan Karakteristik Citra dari Histogram
+- Klasifikasi Citra Berdasarkan Kecerahan dan Kontras
+  - Citra Gelap (Underexposed)
+  - Citra Terang (Overexposed)
+  - Citra Kontras Rendah (Low Contrast)
+  - Citra Kontras Tinggi (High Contrast)
+- Statistik Histogram Citra
+  - Nilai Rata-Rata (Mean)
+  - Variansi dan Standar Deviasi

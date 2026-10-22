@@ -1,0 +1,12 @@
+
+- Konsep Ranah Spasial vs Ranah Frekuensi
+- Transformasi Fourier (Fourier Transform)
+  - Sifat-Sifat Transformasi Fourier
+  - Transformasi Fourier Diskrit (TFD / DFT)
+    - TFD Satu Peubah (1-D) dan Balikannya
+    - TFD Dua Peubah (2-D) dan Balikannya
+  - Spektrum Fourier dan Pemusatan Spektrum (FFTShift)
+- Prinsip Penapisan Frekuensi
+- Transformasi Kosinus Diskrit (Discrete Cosine Transform / DCT)
+  - Koefisien DCT (DC dan AC)
+  - Pembagian Ranah Frekuensi DCT (Low, Middle, High)

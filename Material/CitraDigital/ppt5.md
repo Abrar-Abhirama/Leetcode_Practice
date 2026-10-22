@@ -1,0 +1,20 @@
+- Aras Operasi
+  - Aras Titik
+  - Aras Lokal
+  - Aras Global
+  - Aras Objek
+- Operasi Aritmetika
+  - Penjumlahan Citra
+  - Pengurangan Citra
+  - Perkalian Citra
+  - Operasi Aritmetika dengan Skalar
+- Operasi Logika (Boolean)
+  - Operasi AND
+  - Operasi OR
+  - Operasi NOT
+  - Operasi XOR
+- Operasi Geometri
+  - Translasi
+  - Rotasi
+  - Flipping (Pencerminan)
+  - Penskalaan Citra (Zooming)

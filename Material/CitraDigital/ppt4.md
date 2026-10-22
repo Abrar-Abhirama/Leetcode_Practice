@@ -1,0 +1,17 @@
+- Header File Citra dan Magic Number
+- Format File Citra
+  - PBM, PGM, dan PPM
+  - BMP (Bitmap)
+  - GIF (Graphic Interchange Format)
+  - JPEG (Joint Photographic Experts Group)
+  - PNG (Portable Network Graphics)
+  - Raw Image
+- Jenis Citra di dalam MATLAB
+  - Citra Biner (Binary Image)
+  - Citra Terindeks (Indexed Image)
+  - Citra Hitam-Putih (Grayscale Image)
+  - Citra Warna-Sejati (Truecolor Image)
+- Pengolahan Citra dengan MATLAB
+  - Membaca dan Menampilkan Citra
+  - Menyimpan Citra
+  - Membaca Citra Animated GIF
