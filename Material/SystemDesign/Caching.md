@@ -22,4 +22,21 @@
 17. Redis Cluster
 18. request coalescing / distributed locking
 
-1. 
+1. Client side caching
+2. Http cache, web storage, cache control http header
+3. no-cache vs no-store
+4. Edge Caching (CDN)
+5. TTL (Time to live), cache key, cache validation, cacheability 
+6. Reserve Proxy Caching, Nginx Response Caching
+7. Redis vs Memcached (In-Memory Caching)
+8. Cache Aside, Write Through, Write Behind 
+9. Cache Aside (race condition, cache isnt invalidated)
+10. Least Recently Used (LRU)
+11. Least Frequently Used (LFU)
+12. First In, First Out (FIFO)
+13. TTL/Expiration vs Eviction
+14. Thundering Herd Problem (Cache Stampede) 
+15. TTL Jitter, Mutex Lock, Proactive Background Refresh
+16. Stateless Servers & Scaling Problem / Shared Redis Sessions
+17. Sticky Sessions / Sessions affinity 
+18. Stateless Authentication with JWT
